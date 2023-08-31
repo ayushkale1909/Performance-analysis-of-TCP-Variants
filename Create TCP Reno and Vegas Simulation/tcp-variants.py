@@ -35,5 +35,4 @@ def analyze_trace_file(filename):
 
 analyze_trace_file("vegas.tr")
 
-# Analyze the tahoe.tr file
 analyze_trace_file("reno.tr")
