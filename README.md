@@ -31,7 +31,5 @@ Focused on simulations and analysis specific to TCP Reno and Vegas variants.
 ### Time-Driven Simulation of UDP
 Contains Python scripts to perform time-driven simulation using socket for UDP protocol.
 
-## Auxiliary Files
-
 ### `labelled_trace_file.csv`
 A CSV file that contains indexed and labeled NS2 trace data.
