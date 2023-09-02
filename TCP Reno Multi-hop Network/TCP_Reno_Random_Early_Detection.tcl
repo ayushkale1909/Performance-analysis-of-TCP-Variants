@@ -16,7 +16,6 @@ $ns duplex-link $n1 $n2 1Mb 10ms RED
 $ns duplex-link $n2 $n3 1Mb 10ms RED
 $ns duplex-link $n3 $n4 1Mb 10ms RED
 
-# Reno TCP agents and sinks
 set tcp0 [new Agent/TCP/Reno]
 set sink0 [new Agent/TCPSink]
 $ns attach-agent $n0 $tcp0
@@ -41,7 +40,6 @@ $ns attach-agent $n3 $tcp3
 $ns attach-agent $n4 $sink3
 $ns connect $tcp3 $sink3
 
-# FTP application for each TCP connection
 set ftp0 [new Application/FTP]
 $ftp0 attach-agent $tcp0
 $ns at 0.5 "$ftp0 start"
@@ -58,7 +56,6 @@ set ftp3 [new Application/FTP]
 $ftp3 attach-agent $tcp3
 $ns at 0.5 "$ftp3 start"
 
-# Simulation time and finish
 $ns at 20.0 "stop"
 $ns at 20.1 "puts \"NS Exit\"; $ns halt"
 
