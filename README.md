@@ -45,6 +45,9 @@ Contains Python scripts to perform time-driven simulation using socket for UDP p
 ### `labelled_trace_file.csv`
 A CSV file that contains indexed and labeled NS2 trace data.
 
+### TCP Reno Multi-hop Network 
+Simulates a multi-hop network with TCP Reno as the transport protocol. Used  DropTail queuing algorithm using FIFO (First-In-First-Out) conditions and Random Early Detection (RED) queuing algorithm. The .nam files can be used to visualize the network simulation. Trace files can be used to compare metrics for using different queuing algorithms under similar network conditions.
+
 ### Output
 
 #### [TCP Multiple Flows with Packet Drops](https://drive.google.com/file/d/1o6cp6tikOb2Kr7Jp_JcNFWP_M4cJM1XW/view?usp=sharing)
