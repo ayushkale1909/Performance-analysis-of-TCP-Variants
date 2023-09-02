@@ -37,7 +37,7 @@ Similar to `reno.tcl`, but this script sets up a simulation for TCP Vegas.
 #### `python-analysis.py`
 This Python script analyzes trace files for both Reno and Vegas simulations. It calculates metrics like packet loss rate, throughput, and average end-to-end delay for each.
 
-![Metrics Screenshot2](General%20TCP%20Simulation/tcp_analysis1.jpg)
+![Metrics Screenshot2](https://github.com/ayushkale1909/Performance-analysis-of-TCP-Variants/blob/main/TCP%20Reno%20and%20Vegas%20Simulation/vegas_reno_analysis.jpg)
 
 ### Time-Driven Simulation of UDP
 Contains Python scripts to perform time-driven simulation using socket for UDP protocol.
